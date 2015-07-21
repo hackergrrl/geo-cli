@@ -1,9 +1,9 @@
 {
-  "name": "geo-cmd",
+  "name": "geo-cli",
   "description": "Command that writes your current location (long/lat) to stdout.",
   "version": "0.0.0",
   "repository": {
-    "url": "git://github.com/noffle/geo-cmd.git"
+    "url": "git://github.com/noffle/geo-cli.git"
   },
   "main": "index.js",
   "bin": {
