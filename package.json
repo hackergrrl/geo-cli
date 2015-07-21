@@ -1,0 +1,21 @@
+{
+  "name": "geo-cmd",
+  "description": "Command that writes your current location (long/lat) to stdout.",
+  "version": "0.0.0",
+  "repository": {
+    "url": "git://github.com/noffle/geo-cmd.git"
+  },
+  "main": "index.js",
+  "bin": {
+    "geo": "bin/cmd.js"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "dependencies": {
+    "wifi-location": "0.0.1"
+  },
+  "devDependencies": {
+    "tape": "*"
+  }
+}
